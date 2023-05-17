@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Biss.DailyCashFlow.Data\Biss.DailyCashFlow.Data.csproj" />
+    <ProjectReference Include="..\Biss.DailyCashFlow.Domain\Biss.DailyCashFlow.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

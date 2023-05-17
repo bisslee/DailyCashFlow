@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biss.DailyCashFlow.Domain", "Biss.DailyCashFlow.Domain\Biss.DailyCashFlow.Domain.csproj", "{94F8F1DE-3906-45FD-A82C-3014DAF6C7EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biss.DailyCashFlow.Data", "Biss.DailyCashFlow.Data\Biss.DailyCashFlow.Data.csproj", "{9760EE45-79CC-46B1-8829-FB95AE5439D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biss.DailyCashFlow.Service", "Biss.DailyCashFlow.Service\Biss.DailyCashFlow.Service.csproj", "{D1386033-BCCD-4848-B5B2-E16E11318FF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biss.DailyCashFlow.App", "Biss.DailyCashFlow.App\Biss.DailyCashFlow.App.csproj", "{39C3B164-48F4-40D8-BD2A-11E8F69442DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biss.DailyCashFlow.Tests", "Biss.DailyCashFlow.Tests\Biss.DailyCashFlow.Tests.csproj", "{F9B8A0AA-C74F-4397-A8CF-4798C690239C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94F8F1DE-3906-45FD-A82C-3014DAF6C7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F8F1DE-3906-45FD-A82C-3014DAF6C7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F8F1DE-3906-45FD-A82C-3014DAF6C7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F8F1DE-3906-45FD-A82C-3014DAF6C7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9760EE45-79CC-46B1-8829-FB95AE5439D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9760EE45-79CC-46B1-8829-FB95AE5439D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9760EE45-79CC-46B1-8829-FB95AE5439D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9760EE45-79CC-46B1-8829-FB95AE5439D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1386033-BCCD-4848-B5B2-E16E11318FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1386033-BCCD-4848-B5B2-E16E11318FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1386033-BCCD-4848-B5B2-E16E11318FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1386033-BCCD-4848-B5B2-E16E11318FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C3B164-48F4-40D8-BD2A-11E8F69442DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C3B164-48F4-40D8-BD2A-11E8F69442DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C3B164-48F4-40D8-BD2A-11E8F69442DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C3B164-48F4-40D8-BD2A-11E8F69442DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B8A0AA-C74F-4397-A8CF-4798C690239C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B8A0AA-C74F-4397-A8CF-4798C690239C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B8A0AA-C74F-4397-A8CF-4798C690239C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B8A0AA-C74F-4397-A8CF-4798C690239C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BB4E6D6-D9F8-45AF-8751-877E4384A267}
+	EndGlobalSection
+EndGlobal
