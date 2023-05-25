@@ -10,6 +10,15 @@ Criar um sistema que faça controle do fluxo de caixa, com os seguintes serviço
 Para esse teste usamos o .net6, utilizando minimals APIs.
 O gerenciador de bando de dados escolhido foi o SQL 
 
+## Arquitetura proposta
+![Desenho da Arquitetura](https://github.com/bisslee/DailyCashFlow/blob/master/Doc/Arquitetura.png?raw=true)
+
+Neste diagrama, a seta indica a direção do fluxo de dados. Os usuários acessam o sistema através da Internet e o tráfego passa pelo firewall para proteção. Em seguida, o load balancer distribui as solicitações entre os contêineres do gateway e da API.
+
+A escalabilidade é alcançada com o uso do orquestrador de contêineres, que gerencia dinamicamente o número de instâncias dos contêineres do gateway e da API com base na carga de trabalho. Isso permite que você dimensione verticalmente (aumentando a capacidade dos contêineres) ou horizontalmente (adicionando mais instâncias) conforme necessário.
+
+Não foi adicionado autenticação, pode-se adicionar usando o firebase ou o MS Identity. 
+
 ## Desenho do Sistema
 ![Diagrama Geral](https://github.com/bisslee/DailyCashFlow/blob/master/Doc/Diagrama-geral.png?raw=true)
 
